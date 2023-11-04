@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farrugia Jean-david </title>
@@ -10,7 +11,8 @@
 <body>
     <header>
         <nav>
-            <!-- ON CREE UNE ANCRE POUR ATTEINDRE LES COMPETENCES -->
+           <!--On ajoute une ancre vers le dernier paragraphe du CV-->
+           <a href="#dernier_paragraphe">Lien vers le bas du cv</a>
         </nav>
     
     </header>
@@ -23,19 +25,21 @@ Jean-david FARRUGIA
 19 chemin de Château Gombert Bât C4
 13013 Marseille
 06 99 19 66 19
-jean-david.farrugia@laplateforme.io
+<p>
+<a href="mailto:jean-david.farrugia@laplateforme.io">jean-david.farrugia@laplateforme.io</a>
+</p>
 Permis B et véhiculé
 
 
     </section>
-<section><h3>Objectif professionnel : Recherche une alternance en développement web</h3></section>
+<section><h2>Objectif professionnel : Recherche une alternance en développement web</h2></section>
 
 
 <section>
-    <h1><b>Mes compétences</b></h1>
-<!--On ajoute du texte visible pour les malvoyants -->
+    <h2>Mes compétences</h2>
 
 
+<!--On ajoute du texte visible pour les malvoyants avec l'attribut alt-->
 
     <ul>        
         <li><img src="images/html5.svg" alt="html" width="3%" height="2%"></li>
@@ -44,7 +48,7 @@ Permis B et véhiculé
         <li><img src="images/linux.svg" alt="linux" width="5%" height="2%"></li>
         <li><img src="images/python.svg" alt="python" width="2%" height="2%"></li>
         <li><img src="images/js.png" alt="js" width="2%" height="2%"></li>
-        <li><img src="images/git.svg" alt="git" width="2%" height="2%"></li>
+        <li><img src="images/git.svg" alt="git" width="5%" height="5%"></li>
     </ul>
 </section>
 
@@ -52,27 +56,25 @@ Permis B et véhiculé
 <!-- Un objectif professionnel -->
     
 <!-- Mon experience professionnelle -->
-    <h3>Mon expérience professionnelle</h3>
+    <h2>Mon expérience professionnelle</h2>
     
-    <p>16/01/2023 06/02/2023 : Développeur iOS, Apple Foundation
+    <p>16/01/2023 - 06/02/2023 : Développeur iOS, Apple Foundation
     Program, Simplon Marseille </p>
 
     <p>
-    11/2021-02/2022 : Développeur Web, À l’Aiguille d’Or, Marseille
+    11/2021 - 02/2022 : Développeur Web, À l’Aiguille d’Or, Marseille
     </p>
     <!--Etudes / formations-->
-    <p>Etudes / formations</p>
+    <h2>Etudes / formations</h2>
     <p>
     2006 : TP Développeur Informatique (Bac+2), AFPA, Marseille
     </p>
 
 <aside>
-    <p>
-        <u>
-    Cliquez sur le ballon pour voir mon cv
-</u>
+    <p>     
+    Cliquez sur le dollar pour voir mon cv
     </p>
-    <a href="cv_Farrugia_JD.pdf"><img src="images/tn_rugby.jpg" alt="ballon de rugby" width="5%"></a>
+    <a href="cv_Farrugia_JD.pdf"><img src="images/dollar.jpg" id="dollar" alt="dollar" width="5%" title="Cliquez pour atteindre"></a>
 
 
 </aside>
@@ -81,9 +83,8 @@ Permis B et véhiculé
 
     <!--Pied de page-->
 <footer>
-    <u>
-    <p>Cliquez ci-dessous sur mon lien vers github</p>
-</u>
+    <p id="dernier_paragraphe">Cliquez ci-dessous sur mon lien vers github</p>
+
  <a href="https://github.com/Jdavidof"><img src="images/github.svg" alt="github" width="5%" height="1%"></a>
 
 </footer>
